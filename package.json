@@ -1,0 +1,38 @@
+{
+  "name": "happy-birthday-vipyne",
+  "version": "0.0.1",
+  "description": "A hidden machine to wish a secret happy birthday to @vipyne",
+  "main": "index.js",
+  "bin": {
+    "hbd-vipyne": "bin/hbd-vipyne"
+  },
+  "scripts": {
+    "test": ":",
+    "install": "node-gyp-build",
+    "prepublish": "hidden-machine lib/index.js -o . --key=40e6146bc2a268f72167c3a3b615db8b9f96f6462117b993b81918af08e8c97e && prebuildify --napi"
+  },
+  "keywords": [
+    "happy",
+    "birthday",
+    "vipyne",
+    "hidden",
+    "machine"
+  ],
+  "author": "Joseph Werle <joseph.werle@gmail.com>",
+  "license": "MIT",
+  "binary": {
+    "napi_versions": [
+      3
+    ]
+  },
+  "dependencies": {
+    "ansi-escapes": "^3.2.0",
+    "chalk": "^2.4.2",
+    "hidden-machine": "^0.2.1",
+    "node-emoji": "^1.10.0",
+    "node-gyp-build": "^3.8.0"
+  },
+  "devDependencies": {
+    "prebuildify": "^2.11.0"
+  }
+}
