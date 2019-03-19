@@ -1,6 +1,6 @@
 {
   "name": "happy-birthday-vipyne",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A hidden machine to wish a secret happy birthday to @vipyne",
   "main": "index.js",
   "bin": "bin/hbd-vipyne",
@@ -33,6 +33,5 @@
     "hidden-machine": "^0.2.5",
     "prebuildify": "^2.11.0"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
