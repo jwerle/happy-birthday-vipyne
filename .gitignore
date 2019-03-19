@@ -61,3 +61,5 @@ typings/
 .next
 build/
 prebuilds
+binding.gyp
+module.c
