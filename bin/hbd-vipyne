@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 try {
   require('../')()
-} catch (err) {
+} catch (err0) {
   try {
     require('../lib')
-  } catch (err) {
-    console.log(err.message || err);
+  } catch (err1) {
+    console.log(err0.message)
+    console.log(err1.message)
   }
 }
