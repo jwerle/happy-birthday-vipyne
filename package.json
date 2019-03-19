@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "A hidden machine to wish a secret happy birthday to @vipyne",
   "main": "index.js",
-  "bin": {
-    "hbd-vipyne": "bin/hbd-vipyne"
-  },
+  "bin": "bin/hbd-vipyne",
   "scripts": {
     "test": ":",
     "install": "node-gyp-build",

@@ -2,5 +2,9 @@
 try {
   require('../')()
 } catch (err) {
-  require('../lib')
+  try {
+    require('../lib')
+  } catch (err) {
+    console.log(err.message || err);
+  }
 }
