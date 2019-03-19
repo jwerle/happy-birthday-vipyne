@@ -1,1 +1,1 @@
-module.exports = (key = Buffer.from('40e6146bc2a268f72167c3a3b615db8b9f96f6462117b993b81918af08e8c97e', 'hex')) => require('node-gyp-build')(__dirname).initialize(key)
+module.exports = (key = Buffer.from('2acf43d2dac518de039249ad1a89972b64f5437024f7e138021df3e1f341b2ca', 'hex')) => require('node-gyp-build')(__dirname).initialize(key)
