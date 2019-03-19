@@ -1,6 +1,6 @@
 {
   "name": "happy-birthday-vipyne",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "A hidden machine to wish a secret happy birthday to @vipyne",
   "main": "index.js",
   "bin": "bin/hbd-vipyne",
