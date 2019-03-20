@@ -7,9 +7,8 @@
   "scripts": {
     "test": ":",
     "install": "node-gyp-build",
-    "prebuild": "prebuildify --napi",
     "generate": "hidden-machine lib/index.js -o . --key 2acf43d2dac518de039249ad1a89972b64f5437024f7e138021df3e1f341b2ca",
-    "prepublish": "npm run generate && npm run prebuild"
+    "prepublish": "npm run generate"
   },
   "keywords": [
     "happy",
